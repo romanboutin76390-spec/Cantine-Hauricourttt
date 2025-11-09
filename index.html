@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Absences Cantine</title>
+</head>
+<body>
+  <h1>Déclaration d'absence à la cantine</h1>
+  <form action="TON_URL_GOOGLE_FORMS" method="POST">
+    <label>Nom et Prénom de l'élève :</label><br>
+    <input type="text" name="entry.NOM_PRENOM" required><br><br>
+
+    <label>Classe :</label><br>
+    <input type="text" name="entry.CLASSE" required><br><br>
+
+    <label>Date :</label><br>
+    <input type="date" name="entry.DATE" required><br><br>
+
+    <label>Motif :</label><br>
+    <input type="text" name="entry.MOTIF"><br><br>
+
+    <button type="submit">Envoyer</button>
+  </form>
+</body>
+</html>
